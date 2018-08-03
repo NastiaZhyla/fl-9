@@ -1,0 +1,99 @@
+@media print {
+    .tm-sidebar {
+        display:none;
+   }
+    .tm-main-content {
+        margin: 0;
+        width: 100%;
+   }
+    .tm-banner {
+        height: 300px;
+   }
+    .tm-content-box {
+        display: block;
+   }
+    .tm-team-description-container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-width: 100%;
+   }
+    .tm-content-box .flex-item {
+        text-align: center;
+   }
+    .tm-footer {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+   }
+    .tm-content-box .tm-team-description-container {
+        text-align: left;
+   }
+}
+#about .img-fluid {
+    border-radius: 200px;
+}
+.tm-section-title-box:hover {
+    background: #1e90ff;
+    font-weight: bold;
+    font-size: 25pt;
+    color: #ffffff;
+    cursor: pointer;
+}
+p:first-letter {
+    color:#76cdd7;
+    font-size: 30px;
+}
+.tm-main-nav, .tm-content-box {
+    box-shadow: 0 0 10px;
+}
+section::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 40px solid #1e90ff;
+    border-right: 130px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.carousel-inner h2.tm-section-title {
+    color: gainsboro;
+    letter-spacing: 5px;
+}
+h2+p {
+    font-style: italic;
+}
+.tm-section-description {
+    line-height: 200%;
+    text-indent: 1.5em;
+}
+section.heading a:visited {
+    color: silver;
+}
+section.heading a:hover {
+    color: #1e90ff;
+    text-decoration-style: double;
+}
+section.heading .text::after{
+    content: "New";
+    vertical-align: super;
+    font-size: 1em;
+    color: red;
+}
+.box p:first-letter {
+    color: black;
+}
+section.blocks li:nth-child(odd) {
+    background-color: rgb(241, 241, 241);
+}
+section.blocks ul.gallery-container li.box p {
+    line-height: 1.8;
+}
+.tm-sidebar li:not(:last-child) {
+    border-bottom: 2px dotted silver;
+}
+.contact-form input, .contact-form button {
+    color: red;
+}
+.contact-form button:hover {
+    background-color: #1e90ff;
+}
