@@ -1,0 +1,229 @@
+body {
+    background: #F0F0F0;
+    -webkit-box-sizing: border-box;
+    min-width: 900px;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    background: #ffffff;
+}
+#banner {
+    background-image: url(../img/apples.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#banner .logo {
+    position: relative;
+    right: 58%;
+    top: 10%;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+#banner h1 {
+    position: relative;
+    color: #ffffff;
+    left: 28%;
+    top: 35%;
+    text-transform: uppercase;
+    font-size: 50pt;
+    letter-spacing: 4px;
+}
+#banner h6 {
+    position: relative;
+    top: 50%;
+    color: #ffffff;
+    font-size: 13pt;
+}
+#banner .top-navigation {
+    position: relative;
+    left: 50%;
+    bottom: 50%;
+}
+#banner .top-navigation a {
+    padding: 40px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+button {
+    position: relative;
+    top: 3%;
+    border: 3px solid #ffffff;
+    width: 200px;
+    height: 40px;
+    background: #343638 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+.text-description article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 23px;
+    background: #ffffff;
+}
+.text-description article p:nth-of-type(2n+1) {
+    background: #ffffff;
+    float: left;
+    width: 40%;
+    padding: 5% 0% 5% 3%;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+    font-size: 14pt;
+}
+.text-description article p:nth-of-type(2n) {
+    background: #ffffff;
+    float: right;
+    width: 45%;
+    padding: 5% 3% 0% 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+}
+.figure-title p {
+    padding: 60px 0px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+}
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+#content .figure-left-1 {
+    background-image: url(../img/sample.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 300px;
+    margin: 1% 3%;
+    float: left;
+    box-shadow: inset 0 0 200px #000 ;
+}
+.clearfix .figure-text {
+    text-align: center;
+    padding: 7% 3%;
+    font-size: 11pt;
+}
+#content .figure-right-1 {
+    background-image: url(../img/sample3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 60%;
+    margin: 1% 3%;
+    height: 300px;
+    box-shadow: inset 0 0 200px #000 ;
+}
+#content .figure-left-2 {
+    background-image: url(../img/sample.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 1% 3%;
+    width: 60%;
+    height: 300px;
+    box-shadow: inset 0 0 200px #000 ;
+}
+#content .figure-right-2 {
+    background-image: url(../img/sample3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin: 1% 3%;
+    width: 60%;
+    height: 300px;
+    box-shadow: inset 0 0 200px #000 ;
+}
+.clearfix .figure-header {
+    position: relative;
+    color: #ffffff;
+    top: 77%;
+    left: 3%;
+}
+.clearfix a {
+    position: relative;
+    left: 90%;
+    bottom: 25px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 1%;
+    background: #343638;
+}
+form {
+    padding: 2% 0;
+    width: 92%;
+    background: #FFF;
+    margin: 3% 5%;
+}
+.newsletter p {
+    padding: 0 3%;
+    float: left;
+}
+form input[type="email"] {
+    padding: 1.5%;
+    width: 62%;
+    background: #f3f3f3;
+    border: 1px solid #343638;
+    border-right: none;
+}
+form input[type="button"] {
+    color: #FFF;
+    cursor: pointer;
+    padding: 1.5%;
+    background: #343638;
+    border: 1px solid #343640;
+    border-left: none;
+}
+footer {
+    background: #FFF;
+}
+.information {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.black-white, .last-tweet, .contact, .newsletter-contact {
+    width: 15%;
+    padding: 7% 3%;
+    border-bottom: 2px #B7C8D9 
+}
+.information p {
+    color: #B7C8D9;
+    font-size: 10pt;
+}
+.newsletter-contact input[type="email"] {
+    padding: 2%;
+    width: 55%;
+    background: #f3f3f3;
+    border: 1px solid #343638;
+    border-right: none;
+}
+.newsletter-contact input[type="button"] {
+    color: #FFF;
+    cursor: pointer;
+    padding: 2%;
+    background: #343638;
+    border: 1px solid #343640;
+    border-left: none;
+}
+.footer-bottom {
+    width: 90%;
+    border-top: 1px solid #B7C8D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    color: #B7C8D9;
+    margin: 0 50px;
+    font-size: 10pt;
+}
+.footer-bottom a {
+    color: #000;
+    text-decoration: none;
+}
