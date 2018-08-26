@@ -1,10 +1,14 @@
 function isPrime(number) {
-    if (number < 2) return false;
-    
-    for (var i = 2; i < number; i++) {
-      if (number % i == 0) return false;
-    }
-    
-    return true;
+  if (number < 2){
+      return false;
+  } 
+/*eslint no-magic-numbers: ["error", { "ignore": [0, e2, 5]}]*/   
+  for (let i = 2; i < number; i++) {
+    if (number % i === 0) {
+      return false;
   }
-  console.log(isPrime(5));
+  
+  return true;
+  }
+}
+console.log(isPrime(5));
