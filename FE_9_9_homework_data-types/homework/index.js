@@ -33,16 +33,20 @@ function getAdultAppleLovers(data) {
 function getKeys(object) {
     let resultKeys = [];
     for (let prop in object) {
+        if (object.hasOwnProperty(prop)) {
         resultKeys.push(prop);
     }
+}
     return resultKeys;
 }
 
 function getValue(obj) {
     let resultValue = [];
     for (let prop in obj) {
+        if (obj.hasOwnProperty(prop)) {
         resultValue.push(obj[prop]);
     }
+}
     return resultValue;
 }
 
