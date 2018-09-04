@@ -1,0 +1,41 @@
+
+h1 {
+display: flex;
+justify-content: center;
+}
+input {
+    width: 90%;
+    padding: 0.5%;
+}
+#add{
+    padding: 0.5%;
+    background-color: black;
+    color:  white;
+    border: none;
+}
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  .footer img {
+      width: 10%;
+  }
+  ul{
+    list-style: none;
+  }
+  .item-text{
+      margin-left: 3%;
+  }
+  .right-button{
+      float: right;   
+      margin-right: 5px;
+      background-color: white;
+      border: none;
+      
+  }
+  li{
+      margin-top: 15px;
+  }
