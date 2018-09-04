@@ -15,7 +15,7 @@ input {
 }
 button {
     background-color: white;
-    border: none;
+    border: white;
 }
 .footer {
     position: fixed;
